@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #ec38a1);
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.topbar input {
+    width: 250px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.topbar button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.926);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(246, 240, 240, 0.968);
+}
+
+.center {
+    text-align: center;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    padding: 10px;
+}
+
+td {
+    background: rgba(180, 234, 232, 0.329);
+}
+
+td:hover {
+    background: rgba(236, 235, 235, 0.645);
+}
+
+/* List */
+ul {
+    padding-left: 20px;
+}
